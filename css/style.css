@@ -17,18 +17,21 @@ body{
 
 header{
     padding: 25px 0;
-    border-bottom: 1px solid #626262;
-    background-color: #c6f7e6;
+   
+    background-image: url(../images/sss.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
 
 }
 .container{
-    /* border: 1px solid green; */
+    
     margin: 0 auto;
     width: 100%;
     overflow: hidden;
 }
 .logo{
-    /* border: 1px solid red; */
+    
     margin-top: -163px;
     width: 12%;
     float: left;
@@ -43,7 +46,7 @@ header{
     width: 410%;
 }
 .menu{
-    /* border: 1px solid red; */
+   
     width: 65%;
     float: right;
 }
@@ -59,7 +62,7 @@ header{
     text-transform: uppercase;
     color: #626262;
     text-decoration: none;
-    border-bottom: 1px solid transparent;
+   
     transition: 0.33s;
 }
 .menu ul li a:hover{
@@ -102,7 +105,23 @@ li span a {
 
 .banner{
 	padding: 0 0 65px;
-	background-color: #c6f7e6;
+	background-image: url(../images/bbb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    background-position: center;
+
+}
+
+.banner img{
+    padding: 0 0 65px;
+    background-image: url(../images/bbb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    background-position: center;
+
+
 }
 
 .b_text{
@@ -117,7 +136,7 @@ li span a {
 	margin: 10px 0 20px;
 	font-family: poppins;
 	font-size: 48px;
-	font-weight: 700;
+	font-weight: 700
 	font-height:70px ;
 	text-align: left;
 }
